@@ -105,7 +105,7 @@ When a chart would communicate results more effectively than a table:
 
 **Quick answer:**
 ```
-/analyze How many new users signed up in December?
+/analyze How many new users signed up in December last year?
 ```
 
 **Full analysis:**
