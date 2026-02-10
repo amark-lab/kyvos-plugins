@@ -23,7 +23,6 @@ claude plugin marketplace add kyvos-plugins/kyvos-cowork-plugins
 claude plugin install kyvos-cowork-plugin@kyvos-plugins
 ```
 
-
 ## Structure
 
 ```
