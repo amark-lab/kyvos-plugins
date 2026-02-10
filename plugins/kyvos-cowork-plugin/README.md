@@ -1,12 +1,7 @@
-# Kyvos Data Analyst Plugin
+# Kyvos Data Plugin
 
-A specialized data analyst plugin for [Cowork](https://claude.com/product/cowork) that connects directly to Kyvos semantic models. Query your business data using natural language, create visualizations, build dashboards, and validate analyses—all powered by Kyvos's semantic layer.
+A specialized data plugin for [Cowork](https://claude.com/product/cowork) that connects directly to Kyvos semantic models. Query your business data using natural language, create visualizations, build dashboards, and validate analyses—all powered by Kyvos's semantic layer.
 
-## Installation
-
-```
-claude plugins add kyvos-plugins/kyvos-cowork-plugin
-```
 
 ## What It Does
 
