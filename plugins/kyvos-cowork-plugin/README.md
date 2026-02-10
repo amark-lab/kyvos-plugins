@@ -5,7 +5,7 @@ A specialized data analyst plugin for [Cowork](https://claude.com/product/cowork
 ## Installation
 
 ```
-claude plugins add [your-plugin-path]/kyvos-data-analyst
+claude plugins add kyvos-plugins/kyvos-cowork-plugin
 ```
 
 ## What It Does
