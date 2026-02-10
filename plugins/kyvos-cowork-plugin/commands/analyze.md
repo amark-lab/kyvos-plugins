@@ -110,7 +110,7 @@ When a chart would communicate results more effectively than a table:
 
 **Full analysis:**
 ```
-/analyze What's causing the increase in support ticket volume over the past 3 months? Break down by category and priority.
+/analyze What's causing the increase in support ticket volume over the past 6 months? Break down by category and priority.
 ```
 
 **Formal report:**
