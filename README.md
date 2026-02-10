@@ -17,7 +17,7 @@ This marketplace contains the **kyvos-cowork-plugin** - a data analysis plugin c
 
 ```bash
 # Add the Kyvos marketplace
-claude plugin marketplace add your-org/kyvos-cowork-plugins
+claude plugin marketplace add kyvos-plugins/kyvos-cowork-plugins
 
 # Install the plugin
 claude plugin install kyvos-cowork-plugin@kyvos-plugins
