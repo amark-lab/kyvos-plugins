@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "kyvos-mcp": {
-      "type": "http",
-      "url":""
-    }
-  }
-}
