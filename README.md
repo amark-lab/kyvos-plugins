@@ -1,10 +1,10 @@
-# Kyvos Cowork Plugins
+# Kyvos Plugins - Marketplace
 
-Official marketplace for Kyvos-enhanced Claude Cowork plugins.
+Official marketplace for Kyvos-enhanced plugins.
 
 ## What's Included
 
-This marketplace contains the **kyvos-cowork-plugin** - a data analysis plugin customized for Kyvos analytics platforms with:
+This marketplace contains the **kyvos** - a data analysis plugin customized for Kyvos analytics platforms with:
 
 - SQL query generation from natural language
 - Semantic model integration
@@ -17,20 +17,20 @@ This marketplace contains the **kyvos-cowork-plugin** - a data analysis plugin c
 
 ```bash
 # Add the Kyvos marketplace
-claude plugin marketplace add kyvos-plugins/kyvos-cowork-plugins
+claude plugin marketplace add ki-kyvos/kyvos-plugins
 
 # Install the plugin
-claude plugin install kyvos-cowork-plugin@kyvos-plugins
+claude plugin install kyvos-plugins@kyvos
 ```
 
 ## Structure
 
 ```
-kyvos-cowork-plugins/
+kyvos-plugins/
 ├── .claude-plugin/
 │   └── marketplace.json          # Marketplace catalog
 ├── plugins/
-│   └── kyvos-cowork-plugin/
+│   └── kyvos/
 │       ├── .claude-plugin/
 │       │   └── plugin.json       # Plugin manifest
 │       ├── skills/               # Your skill files go here
@@ -40,10 +40,6 @@ kyvos-cowork-plugins/
 ```
 
 
-
-## License
-
-Specify your license here (e.g., MIT, Apache 2.0, Proprietary, etc.)
 
 ## Support
 
