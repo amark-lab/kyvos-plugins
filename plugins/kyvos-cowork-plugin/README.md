@@ -29,6 +29,7 @@ This plugin transforms Claude into a data analyst that works directly with your 
 | `/create-viz` | Generate quality visualizations |
 | `/build-dashboard` | Build interactive HTML dashboards with charts and filters |
 | `/validate` | QA an analysis before sharing—methodology, accuracy, and bias checks |
+| `/discover` | Unsupervised discovery engine that scans data for interesting, non-obvious patterns analysts wouldn't think to look for |
 
 ## How It Works
 
@@ -131,6 +132,25 @@ Review an analysis for accuracy, methodology, and potential biases before sharin
 - Calculation spot-checks and aggregation logic
 - Visualization accuracy and clarity
 - Three-level confidence assessment: Ready to share | Share with caveats | Needs revision
+
+### `/discover` - Unsupervised Data Discovery Engine
+
+Scan your Kyvos semantic models for interesting, non-obvious patterns that analysts wouldn't think to look for. The plugin combines semantic model understanding with targeted data sampling to surface hidden insights and present them with dynamic visualizations.
+
+**Usage:**
+```
+/discover surprise me with insights from Quick Commerce data
+/discover what am I missing in customer behavior last quarter?
+/discover show me something interesting in sales data
+/discover find hidden patterns in product performance
+```
+
+**What makes it special:**
+- Intelligently explores your semantic models without requiring you to know what to ask
+- Runs adaptive pattern detection (counterintuitive relationships, hidden segments, Simpson's paradox, concentration risks, emerging trends, and more)
+- Validates findings to filter out noise and data quality issues
+- Generates interactive React dashboards with matched visualizations for each insight
+- Delivers quality over quantity: 2-3 solid, surprising insights instead of overwhelming you with trivial findings
 
 ## Example Workflows
 
