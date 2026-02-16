@@ -276,5 +276,6 @@ Builds self-contained HTML dashboards with Chart.js visualizations, KPI cards, i
 ### data-context-extractor
 
 Meta-skill that extracts business context from Kyvos cubes to build domain-specific analytical capabilities. 
+
 **Bootstrap mode** creates new domain skills by interviewing experts and documenting business logic. 
 **Iteration mode** refines existing skills by adding missing context. Bridges the gap between technical schema and business terminology.
